@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: personal-ai-pro-2
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
